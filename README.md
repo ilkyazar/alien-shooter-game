@@ -5,7 +5,7 @@ This a simple 2D shooter game:
 -------------------------------------------------
 **Are you a gamer?**
 
-Check out the User Manual from here >>> [USER_MANUAL.md][http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/USER_MANUAL.md]
+Check out the User Manual from here >>> [USER_MANUAL.md][https://github.com/ilkyazar/alien-shooter-game/src/master/USER_MANUAL.md]
 
 --------------------------------------------------
 There is registration and authentication functionality. Players can create accounts
@@ -13,15 +13,15 @@ using a unique username and sign in with their account information to access the
 
 The game includes leaderboards. Players are listed by their scores in the game. Leaderboards for the most recent week (last 7 days) and the most recent month (last 30 days) are accessible. 
 
-The game server implementation is under the [server](http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/server) folder. Also, a database is designed according to the requirements which is communicating with the game server. Database schema can be seen in [DB_schema.pdf](http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/server/DB_schema.pdf) and also in [DB_schema.png](http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/server/DB_schema.png).
+The game server implementation is under the [server](https://github.com/ilkyazar/alien-shooter-game/src/master/server) folder. Also, a database is designed according to the requirements which is communicating with the game server. Database schema can be seen in [DB_schema.pdf](https://github.com/ilkyazar/alien-shooter-game/src/master/server/DB_schema.pdf) and also in [DB_schema.png](https://github.com/ilkyazar/alien-shooter-game/src/master/server/DB_schema.png).
 
-The client implementation is under the [client](http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/client) folder.
+The client implementation is under the [client](https://github.com/ilkyazar/alien-shooter-game/src/master/client) folder.
 
-For the multiplayer level, a multiplayer-server is implemented. It can be seen under the [multiplayer-server](http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/multiplayer-server) folder. Multiplayer server handles sessions of two clients (players).
+For the multiplayer level, a multiplayer-server is implemented. It can be seen under the [multiplayer-server](https://github.com/ilkyazar/alien-shooter-game/src/master/multiplayer-server) folder. Multiplayer server handles sessions of two clients (players).
 
-Unit tests are provided under [PlayerTest](http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/server/src/test/java/com/example/PlayerTest) for Player and [LeaderboardTest](http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/server/src/test/java/com/example/LeaderboardTest) for Leaderboard. 
+Unit tests are provided under [PlayerTest](https://github.com/ilkyazar/alien-shooter-game/src/master/server/src/test/java/com/example/PlayerTest) for Player and [LeaderboardTest](https://github.com/ilkyazar/alien-shooter-game/src/master/server/src/test/java/com/example/LeaderboardTest) for Leaderboard. 
 
-Postman collection is provided under [group1.postman_collection.json](http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/server/group1.postman_collection.json).
+Postman collection is provided under [group1.postman_collection.json](https://github.com/ilkyazar/alien-shooter-game/src/master/server/group1.postman_collection.json).
 
 Swagger documentation can be seen in:
 
@@ -35,7 +35,7 @@ http://localhost:8080/v2/api-docs
 
 For building the executables, please run: `bash build.sh` in the main directory.
 
-The executable files for [server](http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/server), [client](http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/client) and [multiplayer-server](http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/multiplayer-server) will be created and placed under "executables" folder with names servergroup1.war, clientgroup1.jar and multiplayerservergroup1.jar respectively.
+The executable files for [server](https://github.com/ilkyazar/alien-shooter-game/src/master/server), [client](https://github.com/ilkyazar/alien-shooter-game/src/master/client) and [multiplayer-server](https://github.com/ilkyazar/alien-shooter-game/src/master/multiplayer-server) will be created and placed under "executables" folder with names servergroup1.war, clientgroup1.jar and multiplayerservergroup1.jar respectively.
 
 
 In order to play:
@@ -58,7 +58,7 @@ java -jar client_group1.jar
 
 ---------------------------------------
 
-See [Wiki page][http://144.122.71.144:8080/ilkyaz.arabaci/group1/wiki/Term+Project+-+Group+1] for more.
+See [Wiki page][https://github.com/ilkyazar/alien-shooter-game/wiki/Term+Project+-+Group+1] for more.
 
 ---------------------------------------
 
@@ -80,6 +80,6 @@ Spring Boot
 
 Apache Tomcat
 
-[http://144.122.71.144:8080/ilkyaz.arabaci/group1/wiki/Term+Project+-+Group+1]: http://144.122.71.144:8080/ilkyaz.arabaci/group1/wiki/Term+Project+-+Group+1
+[https://github.com/ilkyazar/alien-shooter-game/wiki/Term+Project+-+Group+1]: http://144.122.71.144:8080/ilkyaz.arabaci/group1/wiki/Term+Project+-+Group+1
 
-[http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/USER_MANUAL.md]: http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/USER_MANUAL.md
+[https://github.com/ilkyazar/alien-shooter-game/src/master/USER_MANUAL.md]: http://144.122.71.144:8080/ilkyaz.arabaci/group1/src/master/USER_MANUAL.md
