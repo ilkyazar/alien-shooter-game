@@ -19,7 +19,7 @@ The client implementation is under the [client](https://github.com/ilkyazar/alie
 
 For the multiplayer level, a multiplayer-server is implemented. It can be seen under the [multiplayer-server](https://github.com/ilkyazar/alien-shooter-game/tree/master/multiplayer-server) folder. Multiplayer server handles sessions of two clients (players).
 
-Unit tests are provided under [PlayerTest](https://github.com/ilkyazar/alien-shooter-game/tree/master/server/src/test/java/com/example/PlayerTest) for Player and [LeaderboardTest](https://github.com/ilkyazar/alien-shooter-game/tree/master/server/src/test/java/com/example/LeaderboardTest) for Leaderboard. 
+Unit tests are provided under [PlayerTest](https://github.com/ilkyazar/alien-shooter-game/tree/master/server/src/test/java/com/example/playerTest) for Player and [LeaderboardTest](https://github.com/ilkyazar/alien-shooter-game/tree/master/server/src/test/java/com/example/leaderboardTest) for Leaderboard. 
 
 Postman collection is provided under [group1.postman_collection.json](https://github.com/ilkyazar/alien-shooter-game/tree/master/server/group1.postman_collection.json).
 
