@@ -58,7 +58,7 @@ java -jar client_group1.jar
 
 ---------------------------------------
 
-See [Wiki page][https://github.com/ilkyazar/alien-shooter-game/wiki/Term+Project+-+Group+1] for more.
+See [Wiki page][https://github.com/ilkyazar/alien-shooter-game/wiki/indiGO!---Alien-Shooter-Game] for more.
 
 ---------------------------------------
 
