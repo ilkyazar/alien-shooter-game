@@ -35,7 +35,7 @@ http://localhost:8080/v2/api-docs
 
 For building the executables, please run: `bash build.sh` in the main directory.
 
-The executable files for [server](https://github.com/ilkyazar/alien-shooter-game/tree/master/server), [client](https://github.com/ilkyazar/alien-shooter-game/tree/master/client) and [multiplayer-server](https://github.com/ilkyazar/alien-shooter-game/tree/master/multiplayer-server) will be created and placed under "executables" folder with names servergroup1.war, clientgroup1.jar and multiplayerservergroup1.jar respectively.
+The executable files for [server](https://github.com/ilkyazar/alien-shooter-game/blob/master/executables/server_group1.war), [client](https://github.com/ilkyazar/alien-shooter-game/blob/master/executables/client_group1.jar) and [multiplayer-server](https://github.com/ilkyazar/alien-shooter-game/blob/master/executables/multiplayerserver_group1.jar) will be created and placed under "executables" folder with names servergroup1.war, clientgroup1.jar and multiplayerservergroup1.jar respectively.
 
 
 In order to play:
