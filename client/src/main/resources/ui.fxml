@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="generalLayout" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: beige;"
+      xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.client.controller.UiController">
+    <HBox fx:id="fieldsLayout" prefHeight="0.0" prefWidth="600.0">
+        <TextField fx:id="idField" alignment="CENTER" prefHeight="26.0" prefWidth="54.0" promptText="id"
+                   HBox.hgrow="ALWAYS"/>
+        <TextField fx:id="nameField" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="26.0"
+                   prefWidth="54.0" promptText="name" HBox.hgrow="ALWAYS"/>
+        <TextField fx:id="surnameField" alignment="CENTER" layoutX="159.0" layoutY="10.0" prefHeight="26.0"
+                   prefWidth="57.0" promptText="surname" HBox.hgrow="ALWAYS"/>
+        <TextField fx:id="departmentField" alignment="CENTER" layoutX="308.0" layoutY="10.0" prefHeight="26.0"
+                   prefWidth="71.0" promptText="department" HBox.hgrow="ALWAYS"/>
+        <TextField fx:id="yearField" alignment="CENTER" layoutX="176.0" layoutY="10.0" prefHeight="26.0"
+                   prefWidth="71.0" promptText="year" HBox.hgrow="ALWAYS"/>
+        <TextField fx:id="gpaField" alignment="CENTER" layoutX="248.0" layoutY="10.0" prefHeight="26.0"
+                   prefWidth="71.0" promptText="gpa" HBox.hgrow="ALWAYS"/>
+    </HBox>
+    <HBox fx:id="buttonsLayout" prefHeight="0.0" prefWidth="600.0">
+        <Button fx:id="addButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false"
+                onAction="#clickAddButton" text="Add Student" HBox.hgrow="ALWAYS"/>
+        <Button fx:id="updateButton" layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308"
+                mnemonicParsing="false" onAction="#clickUpdateButton" text="Update Student" HBox.hgrow="ALWAYS"/>
+        <Button fx:id="deleteButton" layoutX="62.0" layoutY="10.0" maxWidth="1.7976931348623157E308"
+                mnemonicParsing="false" onAction="#clickDeleteButton" text="Delete Student" HBox.hgrow="ALWAYS"/>
+        <Button fx:id="findButton" layoutX="114.0" layoutY="10.0" maxWidth="1.7976931348623157E308"
+                mnemonicParsing="false" onAction="#clickFindButton" text="Find Student" HBox.hgrow="ALWAYS"/>
+        <Button fx:id="showAllButton" layoutX="166.0" layoutY="10.0" maxWidth="1.7976931348623157E308"
+                mnemonicParsing="false" onAction="#clickShowAllButton" text="Show All Students"
+                HBox.hgrow="ALWAYS"/>
+    </HBox>
+    <Label fx:id="informationLabel" alignment="TOP_CENTER" contentDisplay="TOP" maxHeight="1.7976931348623157E308"
+           maxWidth="1.7976931348623157E308" textAlignment="CENTER">
+        <font>
+            <Font size="16.0"/>
+        </font>
+    </Label>
+    <TableView fx:id="table" prefHeight="487.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="idColumn" prefWidth="75.0" style="-fx-alignment: CENTER;" text="ID"/>
+            <TableColumn fx:id="nameColumn" prefWidth="75.0" style="-fx-alignment: CENTER;" text="Name"/>
+            <TableColumn fx:id="surnameColumn" prefWidth="75.0" style="-fx-alignment: CENTER;" text="Surname"/>
+            <TableColumn fx:id="departmentColumn" prefWidth="75.0" style="-fx-alignment: CENTER;" text="Department"/>
+            <TableColumn fx:id="yearColumn" prefWidth="75.0" style="-fx-alignment: CENTER;" text="Year"/>
+            <TableColumn fx:id="gpaColumn" prefWidth="75.0" style="-fx-alignment: CENTER;" text="GPA"/>
+        </columns>
+    </TableView>
+</VBox>
